@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UTF-8">
+        <title> Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="ProyectoStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <script src="Encriptar.js"></script>
+    </head>
+<body>
+    <header>
+        <div class="encabezado">
+            <h1 class="imagen"><img src="imagenes/Logo.png"></h1><h1 class="titulo">Encriptador Challenge Alura</h1>
+            
+        </div>
+    </header>
+    <main>
+            
+        <div class="principal">
+            <textarea cols="30" rows="25" placeholder="INGRESE TEXTO A ENCRIPTAR" id="textoOrigen"></textarea>
+            <ul class="areaDesencriptado">
+                <img src="imagenes/Muñeco.png" alt="Muñeco" class="imgmunheco">
+                <textarea cols="25" rows="5" placeholder="Ningun Texto Encontrado"readonly id="textoDestino"></textarea>
+            </ul>
+            <p class="advertencia"><img src="imagenes/bi_exclamation-circle-fill.png">Solo letras minusculas y sin acentos</p>
+            <section class="botones">
+                <input type="button" onclick="encriptando()" value="Encriptar" class="encriptar"> 
+                <input type="button" value="Desencriptar" onclick="desencriptando()" class="desencriptar"> 
+            </section>
+            
+        </div>          
+    </main>
+    <footer>
+        <div class="pie">
+            <h1>Galindo Martinez Nestor Gabriel</h1>
+        </div>
+        
+    </footer>
+</body>
+    
+</html>

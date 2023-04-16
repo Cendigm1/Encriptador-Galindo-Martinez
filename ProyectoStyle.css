@@ -1,0 +1,127 @@
+header{
+    background-color: lightgrey;
+}
+.encabezado{
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 50px;
+}
+.imagen{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+}
+.titulo{
+    margin: 0 auto;
+    display: inline-block;
+    width: 65%;
+    font-size: 50px; 
+    color: darkred;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px black;
+}
+main{
+    background: linear-gradient(lightgrey, black);
+}
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+#textoOrigen{
+    border:none;
+    width: 40%;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 20px;
+    font-size: 15px;
+
+}
+.areaDesencriptado{
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    border:3px solid black;
+    border-radius: 5px;
+    background: white;
+    margin-left: 20px; 
+}
+.imgmunheco{
+    width: 200px;
+    vertical-align: top;
+}
+#textoDestino{
+    border: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 15px;
+    width: 323px;
+    height: 379px;
+}
+.advertencia{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 20px auto;
+}
+.botones{
+    width: 940px;
+    margin: 20px 224px 20px 170px;
+    position: relative;
+}
+.encriptar{
+    width: 216.06px;
+    font-size: x-large;
+    margin: 0 20px;
+    padding: 20px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 10ms all;
+    cursor: pointer;
+}
+.encriptar:hover{
+    transform: scale(1.1);
+}
+.encriptar:active{
+    background: radial-gradient(black, lightgrey);
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    
+}
+.desencriptar{
+    font-size: x-large;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 20px;
+    transition: 10ms all;
+    cursor: pointer;
+}
+.desencriptar:hover{
+    transform: scale(1.1);
+}
+.desencriptar:active{
+    background: radial-gradient(lightgrey, black);
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+footer{
+    background:black;
+}
+.pie{
+    width: 940px;
+    margin: 0 auto;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+}
