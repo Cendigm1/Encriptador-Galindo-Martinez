@@ -1,3 +1,6 @@
+body{
+    min-height: 100vh;
+}
 header{
     background-color: lightgrey;
 }
@@ -31,12 +34,14 @@ main{
     padding: 40px 0px;
 }
 #textoOrigen{
+    height: 682px;
     border:none;
     width: 40%;
     font-family: 'Shadows Into Light', cursive;
     padding: 20px;
-    font-size: 15px;
-
+    background: transparent;
+    resize: none;
+    font-size: 1.5em;
 }
 .areaDesencriptado{
     vertical-align: top;
@@ -48,10 +53,15 @@ main{
     border-radius: 5px;
     background: white;
     margin-left: 20px; 
+    background: dimgray;
 }
 .imgmunheco{
     width: 200px;
     vertical-align: top;
+}
+#textoDestino::placeholder{
+    color: white;
+    font-size: 1.5em;
 }
 #textoDestino{
     border: none;
@@ -60,9 +70,30 @@ main{
     text-align: center;
     padding: 20px;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 15px;
     width: 323px;
     height: 379px;
+    background: transparent;
+    font-size: 1.5em;
+    resize: none;
+}
+#copiar{
+    padding: 20px 40px;
+    font-size: x-large;
+    margin: 0px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 10ms all;
+    cursor: pointer;
+    background: transparent;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+}
+#copiar:hover{
+    transform: scale(1.1);
+    background: lightgray;
+}
+#copiar:active{
+    background-color: whitesmoke;
 }
 .advertencia{
     color: whitesmoke;
@@ -78,35 +109,46 @@ main{
     position: relative;
 }
 .encriptar{
+    color: white;
     width: 216.06px;
     font-size: x-large;
     margin: 0 20px;
     padding: 20px 40px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     transition: 10ms all;
     cursor: pointer;
+    background: transparent;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
 }
 .encriptar:hover{
     transform: scale(1.1);
+    background: black;
+    color: white;
 }
 .encriptar:active{
     background: radial-gradient(black, lightgrey);
     color: whitesmoke;
     border: 2px solid whitesmoke;
-    
+
 }
 .desencriptar{
     font-size: x-large;
     padding: 20px 40px;
-    border: none;
+    border: 2px solid white;
     border-radius: 10px;
     margin: 0 20px;
     transition: 10ms all;
     cursor: pointer;
+    background: transparent;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
 }
 .desencriptar:hover{
     transform: scale(1.1);
+    background: black;
 }
 .desencriptar:active{
     background: radial-gradient(lightgrey, black);
@@ -124,4 +166,18 @@ footer{
     font-size: 30px;
     color: white;
     text-align: right;
+    text-shadow: 2px 2px 10px white;
 }
+@media  screen and (max-width: 1300px) {
+    .encabezado{
+        width: 750px;
+        padding: 50px 0px;
+    }
+    .principal{
+        width: 750px;
+    }
+    .pie{
+        width: 750px
+    }
+}
+ 
