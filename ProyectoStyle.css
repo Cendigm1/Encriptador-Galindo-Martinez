@@ -1,11 +1,12 @@
 body{
-    min-height: 100vh;
+    background-color: red;
 }
 header{
     background-color: lightgrey;
+    width: 100%;
 }
 .encabezado{
-    width: 940px;
+    width: 50%;
     margin: 0 auto;
     font-family: 'Shadows Into Light', cursive;
     padding: 50px;
@@ -29,7 +30,7 @@ main{
     background: linear-gradient(lightgrey, black);
 }
 .principal{
-    width: 940px;
+    width: 50%;
     margin: 0 auto;
     padding: 40px 0px;
 }
@@ -51,7 +52,6 @@ main{
     padding: 20px;
     border:none;
     border-radius: 5px;
-    background: white;
     margin-left: 20px; 
     background: dimgray;
 }
@@ -159,7 +159,7 @@ footer{
     background:black;
 }
 .pie{
-    width: 940px;
+    width: 50%;
     margin: 0 auto;
     font-family: 'Shadows Into Light', cursive;
     padding: 50px;
@@ -168,16 +168,10 @@ footer{
     text-align: right;
     text-shadow: 2px 2px 10px white;
 }
-@media  screen and (max-width: 1300px) {
-    .encabezado{
-        width: 750px;
-        padding: 50px 0px;
+@media  screen and (max-width: 1500px) {
+    .encabezado, .principal, .pie, .botones{
+        width: auto;
     }
-    .principal{
-        width: 750px;
-    }
-    .pie{
-        width: 750px
-    }
+
 }
  
