@@ -73,18 +73,6 @@ main{
     font-size: 1.5em;
     resize: none;
 }
-#copiar{
-    padding: 20px 40px;
-    font-size: x-large;
-    margin: 0px 20px;
-    border: 2px solid black;
-    border-radius: 10px;
-    transition: 10ms all;
-    cursor: pointer;
-    background: transparent;
-    font-weight: bold;
-    font-family: 'Shadows Into Light', cursive;
-}
 #copiar:hover{
     transform: scale(1.1);
     background: lightgray;
