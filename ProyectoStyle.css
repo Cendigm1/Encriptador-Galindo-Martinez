@@ -73,13 +73,6 @@ main{
     font-size: 1.5em;
     resize: none;
 }
-#copiar:hover{
-    transform: scale(1.1);
-    background: lightgray;
-}
-#copiar:active{
-    background-color: whitesmoke;
-}
 .advertencia{
     color: whitesmoke;
     font-size: 1.3em;
